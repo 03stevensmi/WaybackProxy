@@ -1,1 +1,1 @@
-python3 ./WaybackProxy/waybackproxy.py
+sudo python3 ./WaybackProxy/waybackproxy.py
