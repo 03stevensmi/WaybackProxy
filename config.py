@@ -3,14 +3,14 @@ LISTEN_PORT = 8888
 
 # Date to get pages from Wayback. YYYYMMDD, YYYYMM and YYYY formats are
 # accepted, the more specific the better.
-DATE = '20011025' # <- Windows XP release date in case you're wondering
+DATE = '19960510140808' # <- Windows XP release date in case you're wondering
 
 # Allow the client to load pages and assets up to X days after DATE.
 # Set to None to disable this restriction.
-DATE_TOLERANCE = 365
+DATE_TOLERANCE = 4383
 
 # Send Geocities requests to oocities.org if set to True.
-GEOCITIES_FIX = True
+GEOCITIES_FIX = False
 
 # Use the original Wayback Machine URL as a shortcut when loading images.
 # May result in faster page loads, but all images will point to
